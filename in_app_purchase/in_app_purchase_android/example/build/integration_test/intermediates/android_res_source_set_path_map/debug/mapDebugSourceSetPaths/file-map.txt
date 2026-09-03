@@ -1,0 +1,8 @@
+dev.flutter.integration_test-pngs-0 /Users/mojun/Documents/qianxun/project/flutter_in_app_purchase/in_app_purchase_v2026/in_app_purchase/in_app_purchase_android/example/build/integration_test/generated/res/pngs/debug
+dev.flutter.integration_test-updated_navigation_xml-1 /Users/mojun/Documents/qianxun/project/flutter_in_app_purchase/in_app_purchase_v2026/in_app_purchase/in_app_purchase_android/example/build/integration_test/generated/updated_navigation_xml/debug
+dev.flutter.integration_test-mergeDebugResources-2 /Users/mojun/Documents/qianxun/project/flutter_in_app_purchase/in_app_purchase_v2026/in_app_purchase/in_app_purchase_android/example/build/integration_test/intermediates/incremental/debug/mergeDebugResources/merged.dir
+dev.flutter.integration_test-mergeDebugResources-3 /Users/mojun/Documents/qianxun/project/flutter_in_app_purchase/in_app_purchase_v2026/in_app_purchase/in_app_purchase_android/example/build/integration_test/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+dev.flutter.integration_test-debug-4 /Users/mojun/Documents/qianxun/project/flutter_in_app_purchase/in_app_purchase_v2026/in_app_purchase/in_app_purchase_android/example/build/integration_test/intermediates/merged_res/debug/mergeDebugResources
+dev.flutter.integration_test-debug-5 /Users/mojun/Documents/qianxun/project/flutter_in_app_purchase/in_app_purchase_v2026/in_app_purchase/in_app_purchase_android/example/build/integration_test/intermediates/packaged_res/debug/packageDebugResources
+dev.flutter.integration_test-debug-6 /Users/mojun/fvm/versions/3.41.3/packages/integration_test/android/src/debug/res
+dev.flutter.integration_test-main-7 /Users/mojun/fvm/versions/3.41.3/packages/integration_test/android/src/main/res

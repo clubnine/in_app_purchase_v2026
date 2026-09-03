@@ -1,0 +1,3 @@
+kotlin version: 2.4.0
+error message: java.nio.file.FileSystemException: /Users/mojun/Library/Application Support/kotlin/daemon/kotlin-daemon-client-tsmarker2568203359061186113.tmp: Operation not permitted
+
