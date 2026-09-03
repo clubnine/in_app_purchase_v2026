@@ -43,6 +43,20 @@ your app with each store. Both stores have extensive guides:
 For a list of steps for configuring in-app purchases in both stores, see the
 [example app README](https://github.com/flutter/packages/blob/main/packages/in_app_purchase/in_app_purchase/example/README.md).
 
+### Using from GitHub
+
+If you want to use this customized version directly from GitHub, add the main
+package as a Git dependency:
+
+```yaml
+dependencies:
+  in_app_purchase:
+    git:
+      url: https://github.com/clubnine/in_app_purchase_v2026.git
+      ref: main
+      path: in_app_purchase/in_app_purchase
+```
+
 Once you've configured your in-app purchases in their respective stores, you
 can start using the plugin. Two basic options are available:
 
@@ -196,6 +210,23 @@ if (_isConsumable(productDetails)) {
 }
 // From here the purchase flow will be handled by the underlying store.
 // Updates will be delivered to the `InAppPurchase.instance.purchaseStream`.
+```
+
+On Android, this customized package also supports passing a legacy
+`androidProfileId`, which will be forwarded to Google Play as an obfuscated
+profile identifier:
+
+```dart
+import 'package:in_app_purchase_android/in_app_purchase_android.dart';
+
+final GooglePlayPurchaseParam purchaseParam = GooglePlayPurchaseParam(
+  productDetails: productDetails,
+  androidProfileId: 'your_profile_id',
+);
+
+await InAppPurchase.instance.buyNonConsumable(
+  purchaseParam: purchaseParam,
+);
 ```
 
 StoreKit 2 Specific Purchases (iOS/macOS)

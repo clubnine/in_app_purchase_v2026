@@ -170,7 +170,7 @@ class InAppPurchaseAndroidPlatform extends InAppPurchasePlatform {
       changeSubscriptionParam = purchaseParam.changeSubscriptionParam;
       offerToken = purchaseParam.offerToken;
       obfuscatedProfileId =
-          purchaseParam.obfuscatedProfileId ?? purchaseParam.androidProfileId;
+          purchaseParam.androidProfileId ?? purchaseParam.obfuscatedProfileId;
     }
 
     if (offerToken == null &&
